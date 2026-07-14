@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "brand": {
+    "name": "Moonchild Coffee"
+  },
+  "actions": {
+  "bookTable": "Book a Table",
+  "light": "Light",
+  "dark": "Dark"
+},
+  
+  "hero": {
+  "eyebrow": "Moonchild Coffee",
+  "titleLine1": "Brewed For",
+  "titleLine2": "The Dreamers",
+  "descriptionLine1": "Every cup is crafted with selected beans and",
+  "descriptionLine2": "expert barista artistry for lasting flavor and pure tranquility.",
+  "menuButton": "Explore Menu",
+  "reserveButton": "Reserve a Table"
+}
+
+}
+
