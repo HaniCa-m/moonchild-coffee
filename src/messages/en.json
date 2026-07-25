@@ -22,6 +22,30 @@
   "descriptionLine2": "expert barista artistry for lasting flavor and pure tranquility.",
   "menuButton": "Explore Menu",
   "reserveButton": "Reserve a Table"
+},
+
+"featuredCoffee": {
+  "eyebrow": "Featured Coffee",
+  "title": "Crafted With Passion",
+  "description": "Discover our most loved signature drinks, carefully prepared from premium beans and perfected by our baristas.",
+"viewAll": "Explore Full Menu",
+  "button": "Order Now",
+    "badge": "Signature",
+
+      "items": {
+      "espresso": {
+        "name": "Espresso",
+        "description": "Rich, bold and intensely aromatic."
+      },
+      "latte": {
+        "name": "Latte",
+        "description": "Smooth espresso with silky steamed milk."
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "description": "Perfect harmony of espresso, milk and foam."
+      }
+    }
 }
 
 }

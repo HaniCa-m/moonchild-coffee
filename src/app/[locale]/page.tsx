@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/ui/layout/Navbar";
+import FeaturedCoffee from "@/components/sections/FeaturedCoffee/FeaturedCoffee";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <FeaturedCoffee />
       </main>
     </div>
   );
