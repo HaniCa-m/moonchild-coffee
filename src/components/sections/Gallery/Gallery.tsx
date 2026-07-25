@@ -31,7 +31,7 @@ const images = [
     size: "sm",
   },
   {
-  src: "/images/gallery/coffee-bar.jpg",
+    src: "/images/gallery/coffee-bar.jpg",
     key: "coffeeBar",
     size: "sm",
   },

@@ -102,6 +102,15 @@
     "dessert": "Sweet Creations",
     "interior": "Our Coffee Space"
   }
+},
+
+"reservation": {
+  "eyebrow": "Reserve Your Experience",
+  "titleLine1": "Your Perfect Coffee",
+  "titleLine2": "Moment Awaits",
+  "description": "Whether it's a quiet morning, an afternoon meeting, or an evening with friends, reserve your table and let Moonchild Coffee make every visit memorable.",
+  "button": "Reserve a Table",
+  "secondaryButton": "View Menu"
 }
 
 }

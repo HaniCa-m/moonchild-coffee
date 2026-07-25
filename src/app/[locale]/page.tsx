@@ -4,6 +4,7 @@ import FeaturedCoffee from "@/components/sections/FeaturedCoffee/FeaturedCoffee"
 import About from "@/components/sections/About/About";
 import Testimonials from "@/components/sections/Testimonials/Testimonials";
 import Gallery from "@/components/sections/Gallery/Gallery";
+import ReservationCTA from "@/components/sections/ReservationCTA/ReservationCTA";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Testimonials />
         <Gallery />
+        <ReservationCTA />
       </main>
     </div>
   );
