@@ -25,7 +25,7 @@ export default function TestimonialCard({
       transition={{ duration: 0.35 }}
       className="group relative overflow-hidden rounded-[28px] border border-border/60 bg-card/70 p-8 backdrop-blur-xl transition-all duration-500 hover:border-primary/40 hover:shadow-[0_20px_70px_rgba(201,154,84,.18)]"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-transparent to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />
+      <div className="absolute inset-0 bg-linear-to-b from-primary/10 via-transparent to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />
 
       <div className="relative z-10">
         <Quote
