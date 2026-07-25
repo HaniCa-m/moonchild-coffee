@@ -1,6 +1,8 @@
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/ui/layout/Navbar";
 import FeaturedCoffee from "@/components/sections/FeaturedCoffee/FeaturedCoffee";
+import About from "@/components/sections/About/About";
+import Testimonials from "@/components/sections/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <main>
         <Hero />
         <FeaturedCoffee />
+        <About />
+        <Testimonials />
       </main>
     </div>
   );

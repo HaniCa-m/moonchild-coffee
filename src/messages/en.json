@@ -46,6 +46,47 @@
         "description": "Perfect harmony of espresso, milk and foam."
       }
     }
+},
+
+"about": {
+  "eyebrow": "Our Story",
+
+  "titleLine1": "Crafting Coffee",
+  "titleLine2": "With Heart & Passion",
+
+  "description": "Every cup at Moonchild Coffee begins with carefully selected beans and ends with an experience designed to slow down your day. We believe coffee is more than a drink—it's a moment to pause, connect, and enjoy life.",
+
+  "button": "Learn More",
+
+  "stats": {
+    "beans": "Premium Beans",
+    "drinks": "Signature Drinks",
+    "rating": "Customer Rating"
+  }
+},
+
+"testimonials": {
+  "eyebrow": "Testimonials",
+  "title": "Loved By Coffee Enthusiasts",
+  "description": "Every visit leaves behind a memorable story. Here's what some of our guests have shared about their Moonchild Coffee experience.",
+
+  "items": {
+    "emma": {
+      "name": "Emma",
+      "location": "Paris, France",
+      "review": "One of the finest cappuccinos I've ever had. The coffee was perfectly balanced, the atmosphere was calm, and every detail felt thoughtfully crafted."
+    },
+    "daniel": {
+      "name": "Daniel",
+      "location": "Tehran, Iran",
+      "review": "Moonchild Coffee quickly became my favorite place to relax. Exceptional coffee, welcoming staff, and a beautifully designed space."
+    },
+    "olivia": {
+      "name": "Olivia",
+      "location": "Paris, France",
+      "review": "The quality is consistently outstanding. From the first sip to the final moment, everything feels premium and made with genuine passion."
+    }
+  }
 }
 
 }
