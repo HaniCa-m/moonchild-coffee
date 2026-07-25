@@ -4,7 +4,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { CalendarDays, ArrowRight } from "lucide-react";
+import {
+  CalendarDays,
+  ArrowRight,
+  Clock3,
+  Coffee,
+  Star,
+} from "lucide-react";
 
 export default function ReservationCTA() {
   const t = useTranslations("reservation");
@@ -14,7 +20,7 @@ export default function ReservationCTA() {
       {/* Background */}
       <div className="absolute inset-0 -z-20 bg-background" />
 
-      <div className="absolute left-1/2 top-0 -z-10 h-[550px] w-[550px] -translate-x-1/2 rounded-full bg-primary/10 blur-[160px]" />
+      <div className="absolute left-1/2 top-0 -z-10 h-137.5 w-137.5 -translate-x-1/2 rounded-full bg-primary/10 blur-[160px]" />
 
       <div className="absolute bottom-0 left-0 h-80 w-80 rounded-full bg-primary/5 blur-[120px]" />
 
@@ -23,7 +29,7 @@ export default function ReservationCTA() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: .7 }}
+          transition={{ duration: 0.7 }}
           whileHover={{ y: -6 }}
           className="
             overflow-hidden
@@ -33,7 +39,7 @@ export default function ReservationCTA() {
             bg-card/70
             backdrop-blur-2xl
             shadow-[0_25px_80px_rgba(0,0,0,.12)]
-        "
+          "
         >
           <div className="grid items-center lg:grid-cols-2">
             {/* Left */}
@@ -61,7 +67,7 @@ export default function ReservationCTA() {
               <div className="mt-10 flex flex-wrap gap-4">
                 <Link
                   href="/reservation"
-                  className="group inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 font-semibold text-primary-foreground transition hover:scale-105"
+                  className="group inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 font-semibold text-primary-foreground transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 >
                   {t("button")}
 
@@ -73,30 +79,76 @@ export default function ReservationCTA() {
 
                 <Link
                   href="/menu"
-                  className="rounded-full border border-border bg-background/60 px-8 py-4 font-semibold backdrop-blur transition hover:border-primary hover:text-primary"
+                  className="rounded-full border border-border bg-background/60 px-8 py-4 font-semibold backdrop-blur transition-all duration-300 hover:border-primary hover:text-primary"
                 >
                   {t("secondaryButton")}
                 </Link>
+              </div>
+
+              {/* Info Cards */}
+
+              <div className="mt-10 grid gap-3 sm:grid-cols-3">
+                <div className="rounded-2xl border border-border/60 bg-background/50 p-5 backdrop-blur-md">
+                  <Clock3
+                    size={22}
+                    className="mb-3 text-primary"
+                  />
+
+                  <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
+                    {t("hoursTitle")}
+                  </p>
+
+                  <p className="mt-2 text-sm font-semibold leading-6">
+                    {t("hoursValue")}
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-border/60 bg-background/50 p-5 backdrop-blur-md">
+                  <Coffee
+                    size={22}
+                    className="mb-3 text-primary"
+                  />
+
+                  <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
+                    {t("coffeeTitle")}
+                  </p>
+
+                  <p className="mt-2 text-sm font-semibold leading-6">
+                    {t("coffeeValue")}
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-border/60 bg-background/50 p-5 backdrop-blur-md">
+                  <Star
+                    size={22}
+                    fill="currentColor"
+                    className="mb-3 text-primary"
+                  />
+
+                  <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
+                    {t("ratingTitle")}
+                  </p>
+
+                  <p className="mt-2 text-sm font-semibold leading-6">
+                    {t("ratingValue")}
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Right */}
 
-            <div className="relative h-[340px] lg:h-[620px]">
+            <div className="relative h-85 lg:h-155 overflow-hidden">
               <Image
                 src="/images/reservation/reservation-bg1.jpg"
                 alt="Moonchild Coffee"
                 fill
+                priority={false}
                 sizes="50vw"
-                className="
-                  object-cover
-                  transition
-                  duration-700
-                  hover:scale-105
-                "
+                className="object-cover transition duration-700 hover:scale-105"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-background/20" />
+              <div className="absolute inset-0 bg-linear-to-l from-transparent via-transparent to-background/20" />
             </div>
           </div>
         </motion.div>

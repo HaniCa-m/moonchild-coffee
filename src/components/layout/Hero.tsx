@@ -39,8 +39,8 @@ export default function Hero() {
         <div
           className={`absolute inset-0 ${
             isRTL
-              ? "bg-gradient-to-l from-background via-background/70 to-transparent"
-              : "bg-gradient-to-r from-background via-background/70 to-transparent"
+              ? "bg-linear-to-l from-background via-background/70 to-transparent"
+              : "bg-linear-to-r from-background via-background/70 to-transparent"
           }`}
         />
       </div>

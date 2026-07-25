@@ -110,7 +110,37 @@
   "titleLine2": "Moment Awaits",
   "description": "Whether it's a quiet morning, an afternoon meeting, or an evening with friends, reserve your table and let Moonchild Coffee make every visit memorable.",
   "button": "Reserve a Table",
-  "secondaryButton": "View Menu"
+  "secondaryButton": "View Menu",
+  "hoursTitle": "Open Daily",
+"hoursValue": "08:00 AM – 10:00 PM",
+
+"coffeeTitle": "Signature Coffee",
+"coffeeValue": "Freshly Brewed All Day",
+
+"ratingTitle": "Guest Rating",
+"ratingValue": "4.9 / 5 • 500+ Happy Guests"
+},
+
+"footer": {
+  "description": "Crafting exceptional coffee experiences with carefully sourced beans, artisan techniques, and a warm atmosphere inspired by unforgettable moments.",
+
+  "explore": "Explore",
+  "hours": "Opening Hours",
+  "contact": "Contact",
+
+  "weekdays": "Monday – Friday",
+  "weekend": "Saturday – Sunday",
+
+  "links": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "copyright": "© 2026 Moonchild Coffee House. All rights reserved.",
+
+  "crafted": "Crafted with ☕ and passion."
 }
 
 }
