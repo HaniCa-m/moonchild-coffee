@@ -87,6 +87,21 @@
       "review": "The quality is consistently outstanding. From the first sip to the final moment, everything feels premium and made with genuine passion."
     }
   }
+},
+
+"gallery": {
+  "eyebrow": "Our Gallery",
+  "title": "A Glimpse Into Moonchild",
+  "description": "Explore the atmosphere, craftsmanship, and moments behind every cup.",
+
+  "items": {
+    "coffeeBar": "Coffee Bar",
+    "barista": "Art of Brewing",
+    "latteArt": "Latte Art",
+    "beans": "Selected Coffee Beans",
+    "dessert": "Sweet Creations",
+    "interior": "Our Coffee Space"
+  }
 }
 
 }
