@@ -275,6 +275,53 @@
 
     "description": "Thank you for choosing Moonchild Coffee. We will contact you shortly to confirm your table."
   }
+},
+
+"aboutPage": {
+  "eyebrow": "Our Story",
+
+  "title": "More Than Coffee, A Meaningful Experience",
+
+  "description": "Moonchild Coffee was created around the idea of slowing down, enjoying the moment, and experiencing coffee in a more meaningful way.",
+
+
+  "story": {
+    "title": "The Story Behind Moonchild",
+
+    "description": "Our journey started with a simple vision: creating a welcoming place where people can enjoy carefully crafted coffee, meaningful conversations, and unforgettable moments."
+  },
+
+
+  "philosophy": {
+    "title": "Our Coffee Philosophy",
+
+    "description": "We believe every cup tells a story. From selecting quality ingredients to preparing each drink with care, we focus on creating an exceptional coffee experience."
+  },
+
+
+  "values": {
+
+    "quality": {
+      "title": "Premium Quality",
+      "description": "Carefully selected ingredients and exceptional coffee standards."
+    },
+
+    "craft": {
+      "title": "Craftsmanship",
+      "description": "Every drink is prepared with precision and creativity."
+    },
+
+    "passion": {
+      "title": "Passion",
+      "description": "A genuine love for coffee and creating memorable moments."
+    },
+
+    "experience": {
+      "title": "Unique Experience",
+      "description": "A place designed for comfort, connection, and enjoyment."
+    }
+
+  }
 }
 
 }
