@@ -141,6 +141,107 @@
   "copyright": "© 2026 Moonchild Coffee House. All rights reserved.",
 
   "crafted": "Crafted with ☕ and passion."
+},
+"menu": {
+
+"eyebrow":"Our Menu",
+
+"title":"Crafted For Every Coffee Moment",
+
+"description":"Discover our signature coffees, refreshing creations and handcrafted desserts made with passion.",
+
+
+"categories":{
+
+"coffee":"Coffee",
+"cold":"Cold Drinks",
+"dessert":"Desserts"
+
+},
+
+
+"badges":{
+
+"Signature":"Signature",
+"Popular":"Popular",
+"Favorite":"Favorite",
+"Chef Choice":"Chef Choice"
+
+},
+
+
+
+"items":{
+
+
+"espresso":{
+"name":"Espresso",
+"description":"A bold espresso with deep aroma and a smooth luxurious finish."
+},
+
+
+"americano":{
+"name":"Americano",
+"description":"A classic espresso experience with a clean and balanced taste."
+},
+
+
+"mocha":{
+"name":"Mocha",
+"description":"Rich espresso blended with chocolate and silky milk."
+},
+
+
+"coldbrew":{
+"name":"Cold Brew",
+"description":"Slow extracted coffee with a refreshing and naturally sweet flavor."
+},
+
+
+"icedVanillaLatte":{
+"name":"Iced Vanilla Latte",
+"description":"Smooth espresso, creamy milk and a delicate vanilla touch."
+},
+
+
+"caramelMacchiato":{
+"name":"Caramel Macchiato",
+"description":"Layers of espresso, milk and golden caramel sweetness."
+},
+
+
+"strawberryCoffee":{
+"name":"Strawberry Coffee",
+"description":"A unique combination of coffee and fresh strawberry notes."
+},
+
+
+"chocolateCake":{
+"name":"Chocolate Cake",
+"description":"A rich chocolate dessert with deep flavors and premium texture."
+},
+
+
+"blueberryCheesecake":{
+"name":"Blueberry Cheesecake",
+"description":"Creamy cheesecake topped with fresh blueberries."
+},
+
+
+"croissant":{
+"name":"Butter Croissant",
+"description":"A classic French pastry with golden flaky layers."
+},
+
+
+"tiramisu":{
+"name":"Tiramisu",
+"description":"Italian coffee dessert with mascarpone cream and cocoa."
+
+}
+
+}
+
 }
 
 }
